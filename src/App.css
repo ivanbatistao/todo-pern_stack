@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.start {
+  position: absolute;
+  top: 43.5%;
+  left: 46.5%;
+  text-decoration: none;
+}
+
+.start:link,
+.start:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.start-start-container {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 204, 42);
+}
+
+.start-start-container:hover {
+  box-shadow: 0px 0px 20px gray;
+}
+
+.start-start {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  font-weight: bold;
+  color: black;
+}
+
+.App-header {
+  padding: 1.6rem;
+  background-color: black;
+}
+
+.img-logo {
+  width: 10%;
+}
+
+.nav-bar,
+.search-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar {
+  margin-left: 2.5rem;
+}
+
+.search-bottom {
+  margin-right: 2.5rem;
+  background-color: rgb(255, 204, 42);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.search-bottom .search-input {
+  padding: 1px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.search-submit {
+  padding: 1px;
+}
+
+.poke-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: 5px solid rgb(255, 204, 42);
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.button-close {
+  position: absolute;
+  top: 5px;
+  right: 2px;
+}
+
+.poke-name,
+.poke-experience,
+.poke-firstAbility,
+.poke-secondAbility,
+.more-info,
+.button-close,
+.no-display-p,
+.more-info-h2,
+.more-info-experience,
+.more-info-first-ability,
+.more-info-attack,
+.go-back {
+  font-family: "Press Start 2P", cursive;
+}
+
+.button-close {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.more-info, .go-back {
+  border: 2px dashed black;
+  border-radius: 10px;
+  background-color: rgb(255, 204, 42);
+  padding: 5px;
+  color: black;
+}
+
+.more-info:hover, .go-back:hover {
+  cursor: pointer;
+}
+
+
+.more-info-link:link,
+.more-info-link:visited,
+.go-back-link:link,
+.go-back-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.no-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.more-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.more-info-h2, .go-back {
+  text-align: center;
+}
